@@ -1,0 +1,3 @@
+La multiplicación de dos números puede verse como la suma sucesiva un número, una cantidad definida de veces.
+Desarrolle un programa que tenga una función para obtener datos del usuario, del número que quiere multiplicar y la cantidad de veces, tomando en cuenta que solo puede ingresar números positivos, y usando una función recursiva para la multiplicación de estos números.
+

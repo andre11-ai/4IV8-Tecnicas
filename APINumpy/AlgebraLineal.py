@@ -1,0 +1,10 @@
+import numpy as np
+a=np.array([[1.0,2.0],[3.0,4.0]])
+print("arreglo A: ", a)
+print(a.transpose())
+print("inversa de la matriz: ", np.linalg.inv(a))
+u=np.eye(2)
+print("arreglo U: ", u)
+print ("Trace: ",np.trace(u))
+y=np.array([[5.],[7.]])
+print("Arreglo Y: ", np.linalg.solve(a,y))
